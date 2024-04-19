@@ -1,320 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="style3.css">
-    <link rel="stylesheet" href="carrousel.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karantina:wght@300;400;700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Karantina:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    
-    <title>Scomfort</title>
+    <link rel="icon" href="img/logo_suber.png" sizes="32x32" type="image/png">
+    <title>SUBER</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
 </head>
-
 <body>
-
-
-
-
     <header>
-        <nav class="nav">
-            <div class="logoText">SCOMFORT</div>
-            <h2>Produtos</h2>
-            <h2>Parcerias</h2>
-            <h2>Localização</h2>
-            <h2>Suporte</h2>
-            <button class="loginButton">Login</button>
+        <nav class="navbar">
+            <ul class="menu1">
+                <div class="wrapper">
+                    <img src="img/logomarca_suber.png" alt="Logo">
+                    <li><a>Conheça-nos</a></li>
+                    <li><a>Serviços</a></li>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" id="query-button" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            </ul>
+            <form class="menu2">
+                <input id="name" name="name" type="text" placeholder="Nome">
+                <input id="email" name="email" type="email" placeholder="Email">
+                <button id="submitNewsletter" >Avançar</button>
+            </form>
+
         </nav>
     </header>
-
-    <div class="top-content">
-        <div class="article-gradient">
-            <article class="top-article">
-                <h1>A melhor sneaker store do BRASIL</h1>
-                <h2>Se vista com os tênis de melhor qualidade do mercado.</h2>
-                <button>Comprar agora</button>
-            </article>
-        </div>
-        <div class="img-container">
-            <div class="scomfort"></div>
-        </div>
-
-    </div>
-
-    <section class="section1">
-        <div class="models">
-            <section>
-                <img src="img/tenis.png">
-            </section>
-            <section>
-                <h1>Confira nossos novos modelos pensados exclusivamente para VOCÊ</h1>
-            </section>
-        </div>
-
-    </section>
-
-    <section class="section1_2">
-
-        <div class="setas">
-            <div class="esquerda"></div>
-            <div class="direita"></div>
-        </div>
-        <div class="carrousel-container">
-            <ul class="carrousel">
-                <li class="card" id="firstCard"></li>
-
-                <li class="card">
-                    <div class="card-image">
-                        <div class="img-2"></div>
-                    </div>
-                    <section class="card-layout">
-                        <h1>Scomfort Original 1</h1>
-                        <h2>Tamanhos</h2>
-                        <div>
-                            <blockquote>38</blockquote>
-                            <blockquote>39</blockquote>
-                            <blockquote>40</blockquote>
-                            <blockquote>42</blockquote>
-                        </div>
-                    </section>
-                </li>
-
-                <li class="card">
-                    <div class="card-image">
-                        <div class="img-3"></div>
-                    </div>
-                    <section class="card-layout">
-                        <h1>Scomfort Runner 3</h1>
-                        <h2>Tamanhos</h2>
-                        <div>
-                            <blockquote>39</blockquote>
-                            <blockquote>40</blockquote>
-                            <blockquote>41</blockquote>
-                            <blockquote>43</blockquote>
-                        </div>
-                    </section>
-                </li>
-
-                <li class="card"></li>
-                <li class="card" id="lastCard"></li>
-            </ul>
-        </div>
-
-    </section>
-
-    <section class="section2" id="section">
-        <h1>Tênis Casuais</h1>
-        <img src="img/Product-1.png" class="product-image-1">
-        <h2>SCOMFORT CASUAL'S</h2>
-        <h3>Estilo casual, se vista com personalidade</h3>
-        <article>
-            <button class="produto-button">Ver Produtos</button>
-            <button class="produto-button">Saiba Mais</button>
-        </article>
-    </section>
-
-    <section class="section3" id="section">
-        <h1>Tênis Esportivos</h1>
-        <div class="pro-container">
-            <img src="img/Product-2.png" class="product-image-2">
-        </div>
-        <h2>SCOMFORT SPORTY'S</h2>
-        <h3>Estilo esportivo, esteja praparado pra tudo</h3>
-        <article>
-            <button class="produto-button">Ver Produtos</button>
-            <button class="produto-button">Saiba Mais</button>
-        </article>
-    </section>
-
-    <section class="section4" id="section">
-        <h1>Tênis Especiais</h1>
-        <div class="pro-container">
-            <img src="img/Product-3.png" class="product-image-3">
-        </div>
-        <h2>SCOMFORT ULTRA'S</h2>
-        <h3>Estilo alternativos, não seja comum, seja único</h3>
-        <article>
-            <button class="produto-button">Ver Produtos</button>
-            <button class="produto-button">Saiba Mais</button>
-        </article>
-    </section>
-
-    <section class="section5">
-        <h1>Avaliações</h1>
-        <article>
-            <div class="imagem-comentario">
-                <img src="img/case.png">
-            </div>
-            <div class="coluna">
-                <div class="nome-comentario">Casimiro Miguel</div>
-                <div class="avaliar-comentario">
-                    <img src="img/stars.png">
-                    <h2>28 de março de 2024<h2>
-                </div>
-                <div class="texto-comentario">
-                    Estou extremamente satisfeito com o Tênis Scomfort Casual 1! Confortável,
-                    versátil e durável, é ideal para meu dia a dia, proporcionando suporte e estilo em todas as
-                    ocasiões. Com toda certeza vou divulgar a Scomfort no meu canal.
-                </div>
-            </div>
-        </article>
-
-        <article>
-            <div class="imagem-comentario">
-                <img src="img/papinho.png">
-            </div>
-            <div class="coluna">
-                <div class="nome-comentario">Nilson Isaias</div>
-                <div class="avaliar-comentario">
-                    <img src="img/stars.png">
-                    <h2>19 de fevereiro de 2024<h2>
-                </div>
-                <div class="texto-comentario">
-                    Estou impressionado com o Tênis Scomfort Fly 2! Leve, confortável e com suporte excepcional,
-                    é perfeito para minhas atividades ao ar livre e corridas diárias. Seu design moderno garante
-                    destaque em qualquer situação.
-                    Recomendo fortemente como o melhor investimento em calçados esportivos.
-                </div>
-            </div>
-        </article>
-
-        <article>
-            <div class="imagem-comentario">
-                <img src="img/fallen.png">
-            </div>
-            <div class="coluna">
-                <div class="nome-comentario">Gabriel "Fallen" Toledo</div>
-                <div class="avaliar-comentario">
-                    <img src="img/stars.png">
-                    <h2>31 de fevereiro de 2024<h2>
-                </div>
-                <div class="texto-comentario">
-                    O Tênis Scomfort Original 1 é incrível! Confortável, durável e com design clássico, é perfeito para
-                    qualquer estilo.
-                    A sensação ao caminhar é excepcional, e sua durabilidade é impressionante. Estou extremamente
-                    satisfeito com minha compra
-                    e recomendo a todos que valorizam conforto e qualidade em calçados.
-                </div>
-            </div>
-        </article>
-
-        <div class="qualities">
-
-            <article>
-                <img src="img/quali-1.png">
-                <h1>Qualidade</h1>
-                 <h2>Nosso selo de qualidade garante
-                    que cada par de tênis seja projetado para oferecer conforto,
-                    estilo e durabilidade excepcionais.</h2>
-            </article>
-
-            <article>
-                <img src="img/quali-3.png">
-                <h1>Personalidade</h1>
-                <h2>Com o nosso selo de personalidade,
-                    cada par de tênis é mais do que apenas um calçado,
-                    é uma expressão de estilo.</h2>
-            </article>
-
-            <article>
-                <img src="img/quali-2.png">
-                <h1>Conforto</h1>
-                <h2>O nosso selo de conforto assegura que cada par de tênis
-                    seja elaborado para proporcionar uma experiência de uso excepcional.</h2>
-            </article>
-
-        </div>
-
-    </section>
-    <section class="section6">
-        <h1>Localização</h1>
-        <article>
-            <img class="sede">
-            <div class="map-container">
-                <h1>A sede da nossa empresa Scomfort Headquarters se localiza na cidade de <b>São Paulo</b>,
-                    e possui 1 hectar de tamanho, incluindo <b>3 quadrantes</b>, sendo eles a parte do <b>marketing e 
-                    dos desenvolvedores</b>, a parte da <b>economia</b>, e a parte <b>administrativa</b>.</h2>
-                <img class="map">
-                <h2>Av. Aricanduva, 5343 - Aricanduva, São Paulo - SP, 72920-600</h2>
-            </div>
-        </article>
-    </section>
-
-    <footer>
-
-        <section class="footer-artics">
-          
-          <article id="art-1">
-            <p>Produtos</p>
-            <a href="#" id="workers">Funcionários</a>
-            <a href="#" id="paycheck">Pagamento</a>
-            <a href="#">Ausências</a>
-            <a href="#">Rastreamento</a>
-            <a href="#">Recrutamento</a>
-          </article>
     
-          <article id="art-2">
-            <p>Informação</p>
-            <a href="#">FAQ</a>
-            <a href="#">Blog</a>
-            <a href="#">Suporte</a>
-          </article>
-    
-          <article id="art-3">
-            <p>Empresa</p>
-            <a href="#">Sobre nós</a>
-            <a href="#">Carreiras</a>
-            <a href="#">Fale conosco</a>
-            <a href="#">Scomfort</a>
-          </article>
-    
-          <form>
-            <p>Newsletter</p>
-            <input id="name" name="name" type="text" required placeholder="Nome">
-            <div>
-              <input id="email" name="email" type="email" required placeholder="Endereço de email">
-              <button id="submitNewsletter"><img src="img/arrows-down-top-move-1.png"></button>
+    <main>
+        <section class="banner">
+            <h2>Dirija com segurança</h2>
+            <h2><span class="destaque-amarelo">e conforto</span></h2>
+            <button class="btn-login">Faça login</button>
+            <div class="login-archors">
+                <a href="#" class="anchor">Leia mais sobre nossas políticas</a>
             </div>
-            <legend>
-              Olá, somos a Scomfort. Nosso objetivo é produzir os tênis mais confortáveis e únicos do mercado.
-            </legend>
-        </form>
-    </section>
-    
-        <section class="feet">
-    
-          <h1>SCOMFORT</h1>
-    
-          <article>
-            <p>Termos</p>
-            <p>Privacidade</p>
-            <p>Cookies</p>
-          </article>
-          
-          <div>
-            <img src="img/Linkedin.svg">
-            <img src="img/Facebook.svg">
-            <img src="img/Twitter.svg">
-          </div>
-    
+            <img src="img/carros.png" alt="Carros" class="banner__background">
         </section>
+
+        <section class="info-container">
+            <h2>SUBER: DIRIJA CONOSCO</h2>
+            <p>Conectando motoristas jovens a carros acessíveis e luxuosos em <strong>APENAS UM CLIQUE!</strong></p>
+            <button class="btn-start">CADASTRE-SE</button>
+        </section>
+        
+        </div>
+            <div class="servicos-container">
+                <h2 class="title">SERVIÇOS SUBER</h2>
+                <section class="servicos">
+                    <div class="subervip">
+                        <img src="img/subervip.png" alt="Imagem 1">
+                        <article>
+                            <h1>SUBER VIP</h1>
+                            <p> O Suber Vip é escolha definitiva para quem busca o máximo em luxo e conforto na estrada. Com um design elegante e tecnologia de ponta, este carro de luxo oferece uma experiência de condução incomparável.</p>
+                        </article>
+                        </div>
+                        <div class="subervip">
+                        <img src="img/t-suber.png" alt="Imagem 2">
+                        <article>
+                            <h1>T-SUBER</h1>
+                        <p>O T-Suber é a escolha perfeita para motoristas que buscam qualidade e economia. Com um design moderno e eficiente, este carro popular é ideal para quem quer começar a dirigir com estilo e praticidade.</p>
+                        </article> 
+                    </div>
+                </section>
+            </div>
+            <section class="feature">
+                <div class="feat_column">
+                    <img src="/img/1.jpg" alt="" class="feat__image">
+                    <h2 class="feat_title">Nosso compromisso com sua segurança</h2>
+                    <p class="feat_paragraph">Com todos os recursos de segurança e todos os padrões das nossas Diretrizes da Comunidade, estamos comprometidos em ajudar a criar um ambiente seguro para nossos usuários.</p>
+                    <div class="feat_anchors">
+                        <a href="#" class="anchor">Leia mais sobre nossas políticas</a>
+                    </div>
+                </div>
+                <div class="feat_column">
+                    <img src="/img/2.jpg" alt="" class="feat__image">
+                    <h2 class="feat_title">Colocando mais de 10.000 cidades em movimento</h2>
+                    <p class="feat_paragraph">Com todos os recursos de segurança e todos os padrões das nossas Diretrizes da Comunidade, estamos comprometidos em ajudar a criar um ambiente seguro para nossos usuários.</p>
+                    <div class="feat_anchors">
+                        <a href="#" class="anchor">Veja as cidades</a>
+                    </div>
+                </div>
+            </section>
     
-    </footer> 
+        <section class="about">
+            <div class="about__column">
+                <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542256135/assets/dd/c53d7b-8921-4dc7-93f4-45fb59f4ffb9/original/person-multiple-outlined.svg" alt="" class="about__image">
+                <h2 class="about__title">Quiénes somos</h2>
+                <p class="about__description">Descubre cómo comenzamos, qué nos motiva y cómo reinventamos la movilidad en el mundo.</p>
+                <a href="#" class="about__cta anchor">Conoce más sobre Uber</a>
+            </div>
+            <div class="about__column">
+                <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542254244/assets/eb/68c631-5041-4eeb-9114-80048a326782/original/document-outlined.svg" alt="" class="about__image">
+                <h2 class="about__title">Sala de prensa</h2>
+                <p class="about__description">Accede a los anuncios sobre nuestros últimos lanzamientos, iniciativas y asociaciones.
+                </p>
+                <a href="#" class="about__cta anchor">Conoce más sobre Uber</a>
+            </div>
+            <div class="about__column">
+                <img src="https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_24,h_24/v1542255370/assets/64/58118a-0ece-4f80-93ee-8041b53593d5/original/home-outlined.svg" alt="" class="about__image">
+                <h2 class="about__title">Ciudadanía global</h2>
+                <p class="about__description">Lee sobre nuestro compromiso para tener un impacto positivo en las ciudades donde operamos.</p>
+                <a href="#" class="about__cta anchor">Conoce más sobre Uber</a>
+            </div>
+        </section>
+    </main>
 </body>
 <script src="script.js"></script>
-<script src="carrousel.js"></script>
-<script src="main.js"></script>
-
+<script src="script2.js"></script>
 </html>

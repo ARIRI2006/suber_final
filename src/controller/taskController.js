@@ -8,7 +8,7 @@ async function storeTask(request, response) {
     request.body.email
   );
 
-  const query = 'INSERT INTO newsletter(name, email) VALUES(?, ?)';
+  const query = 'INSERT INTO cliente(nome, email) VALUES(?, ?)';
 
   connection.query(query, params, (err, results) => {
     if(results) {

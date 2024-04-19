@@ -1,0 +1,121 @@
+
+@media screen and (max-width: 768px){
+    header .navbar{
+      align-items: start;
+    }
+    header .navbar .menu1{
+      font-size: 14px;
+  }
+    header .navbar .menu2{
+      display: none;
+    }
+    header .navbar #query-button{
+      display: flex;
+    }
+    .banner h2{
+      font-size: 40px
+    }
+    .btn-login {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+  
+    .info-container{
+        padding: 100px;
+      h2{
+        font-size: 1.5rem;
+      }
+      p{
+        font-size: 1rem;
+      }
+
+    }
+    .btn-start {
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 1rem;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .servicos-container{
+        padding: 100px 0 50px 0;
+    }
+
+    .subervip{
+        flex-direction: column;
+        align-items: start;
+        gap: 0;
+    
+        article{
+          width: 90%;
+        }
+      }
+      
+      .title{
+        padding-bottom: 30px;
+      }
+    
+      .subervip{
+        display: flex;
+        align-items: center;
+      }
+
+      .subervip article{
+        width: 90%;
+        gap: 10px;
+        text-align: center;
+      }
+      
+      .subervip img{
+        width: 50%;
+        max-width: 250px;
+      }
+
+      .subervip h1{
+        font-size: 1.1rem;
+      }
+      
+      .subervip p{
+        font-size: 0.8rem;
+      }
+      
+      
+      .feature{
+        padding: 50px 0 100px 0;
+      }
+      .feat_title {
+        font-size: 1.1rem;
+      }
+      
+      .anchor{
+        font-size: 0.8rem;
+      }
+      
+      .feat_paragraph {
+        font-size: 0.8rem;
+      }
+
+
+
+      .about {
+        display: flex;
+        padding: 100px 50px;
+        background-color: #f3f3f3;
+        justify-content: space-around;
+      }
+      
+      .about__column {
+        width: 30%;
+      }
+      
+      .about__title {
+        font-size: 1.1rem;
+      }
+      
+      .about__description {
+        font-size: 0.8rem;
+      }
+  }

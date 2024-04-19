@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  display: flex;
+  background-color: black;
+  padding: 10px;
+  position: fixed;
+  width: calc(100% - 20px);
+}
+header .wrapper{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+header .navbar{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+header .navbar ul, form{
+  list-style: none;
+}
+
+
+
+header .navbar .menu1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  li{
+    color: white;
+    cursor: pointer;
+  }
+
+  img{
+    width: 100px;
+    cursor: pointer;
+  }
+
+  svg{
+    cursor: pointer;
+  }
+}
+header .navbar .menu2{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  input{
+    padding: 5px;
+    height: 20px;
+  }
+
+  button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+  }
+  
+}
+
+header .navbar #query-button{
+  display: none;
+}
+
+.banner {
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+.banner h2{
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  padding: 0px;
+}
+
+.destaque-amarelo {
+  color:#EED810;
+}
+
+.banner__background {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: center;
+}
+
+.login-archors{
+  
+}
+
+.btn-login {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-login:hover {
+  background-color:  #9c9c9c;
+  border-color: #9c9c9c;
+}
+
+.info-container{
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+  padding: 100px;
+  background-color: #dbdbdb;
+  text-align: left;
+  justify-content: center;
+  align-items: start;
+  margin-top: 50px;
+}
+
+.btn-start {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-start:hover {
+  background-color:  #9c9c9c;
+  border-color: #9c9c9c;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicos-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding: 100px 0 10px 0;
+  border-bottom: 1px solid black;
+}
+
+.title{
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.servicos {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 2rem;
+}
+
+.subervip{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subervip article{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subervip img{
+  width: 40%;
+  max-width: 250px;
+  
+}
+
+.subervip p{
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+}
+
+
+
+.feature {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 100px 0 200px 0;
+  background-color: #ffffff;
+}
+
+.feat_column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+}
+
+.feat_column a {
+  font-size: 10px;
+}
+
+.feat__image {
+  width: 100%;
+}
+
+.feat_title {
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.feat_anchors{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.anchor{
+  font-weight: 500;
+  color: #000000;
+}
+
+.feat_paragraph {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.about {
+  display: flex;
+  padding: 200px 50px;
+  background-color: #f3f3f3;
+  justify-content: space-around;
+}
+
+.about__image{
+  width: 30%;
+  max-width: 60px;
+}
+
+.about__column {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 10px;
+}
+
+.about__title {
+  font-size: 1.5rem;
+}
+
+.about__description {
+  font-size: 1.1rem;
+}
